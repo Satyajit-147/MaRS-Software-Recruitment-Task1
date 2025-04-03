@@ -60,5 +60,13 @@ Through this process, I learned:
    **Description:** The command uploads the commited changes from local repository to the remote repository on GitHub. -u enables pushing to be done without specifying the active branch
 
 
+**##Bash Scripting**
+For this task, I generated a random number between 0 and 100 for the battery level using the command RANDOM%101, followed by two if conditions. The first condition checks if the battery level is below 20% and displays an appropriate error message if the condition is met. The second condition pings google.com to check network connectivity. If both checks pass, the script prints "All systems operational"; otherwise, it exits with an error message.
 
+
+**#MEDIUM DOSE**
+
+**##Task1**
+
+The task was to determine the adjusted coordinates of the Rover Brick. According to the problem, the rover made a 360-degree turn 55 cm behind the actual mark. To correct its position, I first calculated the direction vector from the initial reference point to the final position. Then, I computed the unit vector, multiplied it by 55, and added the result to the final rover coordinates to obtain the corrected position. The initial reference frame and the rover’s final position before adjustment are taken as input from the user.
    
