@@ -12,35 +12,50 @@ Through this process, I learned:
 **##Steps Taken to Push FIles to GitHub**
 1. Initialize Git in the repository (Command: git init)
 
+   ![Initializing Git](init.png)
+   
+
    **Description:** Creates a new Git repository within the diretory (if not already initialized)
+   
 
+3. Check the Current Git Branch (Command: git branch)
 
-2. Check the Current Git Branch (Command: git branch)
+   ![Initializing Git](branch.png)
    
    **Description:** Displays the active branch (main/master). If no branch exists, it's taken as main by default
 
 
-3. List down the remote repositories (Command: git remote -v)
+5. List down the remote repositories (Command: git remote -v)
+
+   ![Initializing Git](remote-v.png)
    
    **Description:** Displays the remote repository URLs linked to your local Git repository, showing both fetch and push destinations.
 
 
-4. Add files (Command: git add .)
+7. Add files (Command: git add .)
+
+   ![Initializing Git](add.png)
    
    **Description:** Adds all the files in the current directory to the staging area preparing them for commit
    
 
-5. Commit the Changes (Command: git commit -m "Initial commit")
+9. Commit the Changes (Command: git commit -m "Initial commit")
+
+    ![Initializing Git](commit.png)
    
    **Description:** Saves the changes made with a description (message) "Initial commit"
    
 
-6. Link Local Repository to GItHub repository (Command: git remote add origin https://github.com/Satyajit-147/MaRS-Software-Recruitment-Task1.git)
+11. Link Local Repository to GItHub repository (Command: git remote add origin https://github.com/Satyajit-147/MaRS-Software-Recruitment-Task1.git)
+
+    ![Initializing Git](remote_add_origin.png)
    
    **Description:** This command is to connect local Git repository to a remote GitHub repository
 
 
-7. Push Files to GitHub (Command: git push -u origin main)
+11. Push Files to GitHub (Command: git push -u origin main)
+
+    ![Initializing Git](push.png)
    
    **Description:** The command uploads the commited changes from local repository to the remote repository on GitHub. -u enables pushing to be done without specifying the active branch
 
