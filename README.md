@@ -8,8 +8,8 @@ Through this process, I learned:
 - Generate PAT for authentication instead of having to enter the password each time
 - Troubleshoot common Git errors (Eg: Incorrect branch name
 - Learnt file handling concepts in Python
-**
-##Steps Taken to Push FIles to GitHub**
+
+**##Steps Taken to Push FIles to GitHub**
 1. Initialize Git in the repository (Command: git init)
 
 
