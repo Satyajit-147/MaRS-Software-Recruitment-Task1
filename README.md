@@ -63,6 +63,7 @@ Through this process, I learned:
 **## EASY DOSE**
 
 **###Bash Scripting**
+
 For this task, I generated a random number between 0 and 100 for the battery level using the command RANDOM%101, followed by two if conditions. The first condition checks if the battery level is below 20% and displays an appropriate error message if the condition is met. The second condition pings google.com to check network connectivity. If both checks pass, the script prints "All systems operational"; otherwise, it exits with an error message.
 
 
