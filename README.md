@@ -102,7 +102,7 @@ Concepts: Slicing Techniques, Loops, Mathematical Operations, List manipulations
 
 **##Task5**
 
-The task was to convert 3-number system to 4-number system. The 3-number system refers to Euler Angle, which represents the angles made with x-axis(Roll), y-axis(Pitch) and z-axis(Yawn). The 4-number system refers to quaternions, a mathematical representation of rotations using four numbers (w, x, y, z). w is the scalar component (cosine of the half angle rotation angle) and (x,y,z) is the vector component (sine of half the rotation angle multiplied by the axis of rotation).
+The task was to convert 3-number system to 4-number system. The 3-number system refers to Euler Angle, which represents the angles made with x-axis (Roll (ϕ)), y-axis (Pitch (θ)) and z-axis (Yaw (ψ)). The 4-number system refers to quaternions, a mathematical representation of rotations using four numbers (w, x, y, z). w is the scalar component (cosine of the half angle rotation angle) and (x,y,z) is the vector component (sine of half the rotation angle multiplied by the axis of rotation).
 
 Conversion from Euler Angles to Quaternions:
 
@@ -119,5 +119,18 @@ Conversion from Euler Angles to Quaternions:
 Gimbal lock is a phenomenon in 3D rotation systems, specifically when using Euler angles, where a loss of one degree of freedom occurs when two axes of rotation become aligned, leading to unpredictable and undesirable rotations.
 
 In the context of rover navigation and positioning, avoiding gimbal lock is essential because the rover relies on accurate orientation adjustments to align with terrain, execute turns, and maintain stability. If gimbal lock occurs, one axis of rotation effectively disappears, making it impossible to properly adjust the rover's orientation. This can lead to incorrect navigation, failed maneuvering, or even complete loss of control over the rover’s direction.
+
+Concepts: 3D rotations, 3-number and 4-number systems and Gimbal Lock.
+
+
+**#HARD DOSE**
+
+**##Task1**
+
+I was tasked with representing the obstacle positions in an arena. To solve this, I read the text file sample.txt and stored the data in a nested list. I used NumPy, a built-in module, to print an 11×11 arena. Then, I calculated the position of each obstacle, where N/S movement corresponds to the y-direction and E/W movement corresponds to the x-direction. I assumed that the rover starts from (0,0) in the arena for the question.
+
+One issue I encountered was that the rover had to move north from its reference point, which was not possible to represent in the grid. To address this, I shifted the x and y coordinates of all obstacles where necessary. Specifically, I identified the obstacle with the smallest x and y coordinates and shifted every coordinate accordingly if these values were negative. This shifting method ensured that all obstacles could be properly represented within the arena matrix.
+
+Concepts: NumPy for 2D array represenetation, Nested Lists, Coordinate System and Transformations.
 
 
