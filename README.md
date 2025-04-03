@@ -106,15 +106,15 @@ The task was to convert 3-number system to 4-number system. The 3-number system 
 
 Conversion from Euler Angles to Quaternions:
 
--w=cos2ϕ​cos2θ​cos2ψ​+sin2ϕ​sin2θ​sin2ψ​
+-w = cos2ϕ​cos2θ​cos2ψ​+sin2ϕ​sin2θ​sin2ψ​
 
--x=sin⁡ϕ2cos⁡θ2cos⁡ψ2−cos⁡ϕ2sin⁡θ2sin⁡ψ2
+-x = sin⁡ϕ2cos⁡θ2cos⁡ψ2−cos⁡ϕ2sin⁡θ2sin⁡ψ2
 
--x=sin2ϕ​cos2θ​cos2ψ​−cos2ϕ​sin2θ​sin2ψ​
+-x = sin2ϕ​cos2θ​cos2ψ​−cos2ϕ​sin2θ​sin2ψ​
 
--y=cos⁡ϕ2sin⁡θ2cos⁡ψ2+sin⁡ϕ2cos⁡θ2sin⁡ψ2
+-y = cos⁡ϕ2sin⁡θ2cos⁡ψ2+sin⁡ϕ2cos⁡θ2sin⁡ψ2
 
--z=cos2ϕ​cos2θ​sin2ψ​−sin2ϕ​sin2θ​cos2ψ​
+-z = cos2ϕ​cos2θ​sin2ψ​−sin2ϕ​sin2θ​cos2ψ​
 
 Gimbal lock is a phenomenon in 3D rotation systems, specifically when using Euler angles, where a loss of one degree of freedom occurs when two axes of rotation become aligned, leading to unpredictable and undesirable rotations.
 
