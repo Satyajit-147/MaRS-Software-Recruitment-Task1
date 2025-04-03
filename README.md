@@ -46,7 +46,7 @@ Through this process, I learned:
    **Description:** Saves the changes made with a description (message) "Initial commit"
    
 
-11. Link Local Repository to GItHub repository (Command: git remote add origin https://github.com/Satyajit-147/MaRS-Software-Recruitment-Task1.git)
+10. Link Local Repository to GItHub repository (Command: git remote add origin https://github.com/Satyajit-147/MaRS-Software-Recruitment-Task1.git)
 
     ![Initializing Git](remote_add_origin.png)
    
