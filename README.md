@@ -2,7 +2,7 @@
 
 **##Experience and Learnings**
 
-Working with Git and GitHub using Linux commands was a hands-on experience. For this task I successfully initialized a repository, pushed all python files to the repository and authenticated my GitHub using a Personal Access Token (PAT). I've solved 2 easy questions, 5 medium questions and 1 hard question which helped my revise my basic Python programming concepts.
+Working with Git and GitHub using Linux commands was a hands-on experience. For this task, I successfully initialized a repository, pushed all python files to the repository and authenticated my GitHub using a Personal Access Token (PAT). I've solved 2 easy questions, 5 medium questions, and 1 hard question, which helped my revise my basic Python programming concepts.
 Through this process, I learned:
 - How to navigate directories and create new files using Linux commands
 - Generate PAT for authentication instead of having to enter the password each time
@@ -15,14 +15,14 @@ Through this process, I learned:
    ![Initializing Git](init.png)
    
 
-   **Description:** Creates a new Git repository within the diretory (if not already initialized)
+   **Description:** Creates a new Git repository within the directory (if not already initialized)
    
 
 3. Check the Current Git Branch (Command: git branch)
 
    ![Initializing Git](branch.png)
    
-   **Description:** Displays the active branch (main/master). If no branch exists, it's taken as main by default
+   **Description:** Displays the active branch (main/master). If no branch exists, it defaults to main
 
 
 5. List down the remote repositories (Command: git remote -v)
@@ -36,7 +36,7 @@ Through this process, I learned:
 
    ![Initializing Git](add.png)
    
-   **Description:** Adds all the files in the current directory to the staging area preparing them for commit
+   **Description:** Adds all the files in the current directory to the staging area, preparing them for commit
    
 
 9. Commit the Changes (Command: git commit -m "Initial commit")
@@ -57,7 +57,7 @@ Through this process, I learned:
 
     ![Initializing Git](push.png)
    
-   **Description:** The command uploads the commited changes from local repository to the remote repository on GitHub. -u enables pushing to be done without specifying the active branch
+   **Description:** The command uploads the committed changes from local repository to the remote repository on GitHub. -u enables pushing to be done without specifying the active branch
 
 
 **#EASY DOSE**
