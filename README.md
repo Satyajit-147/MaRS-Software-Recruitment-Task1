@@ -100,4 +100,21 @@ The built-in statistics module is imported to compute the standard deviation for
 
 Concepts: Slicing Techniques, Loops, Mathematical Operations, List manipulations and the in-built statistics module
 
+**##Task5**
+
+The task was to convert 3-number system to 4-number system. The 3-number system refers to Euler Angle, which represents the angles made with x-axis(Roll), y-axis(Pitch) and z-axis(Yawn). The 4-number system refers to quaternions, a mathematical representation of rotations using four numbers (w, x, y, z). w is the scalar component (cosine of the half angle rotation angle) and (x,y,z) is the vector component (sine of half the rotation angle multiplied by the axis of rotation).
+
+Conversion from Euler Angles to Quaternions:
+-w=cos2ϕ​cos2θ​cos2ψ​+sin2ϕ​sin2θ​sin2ψ​
+-x=sin⁡ϕ2cos⁡θ2cos⁡ψ2−cos⁡ϕ2sin⁡θ2sin⁡ψ2
+-x=sin2ϕ​cos2θ​cos2ψ​−cos2ϕ​sin2θ​sin2ψ​
+-y=cos⁡ϕ2sin⁡θ2cos⁡ψ2+sin⁡ϕ2cos⁡θ2sin⁡ψ2
+-y=cos2ϕ​sin2θ​cos2ψ​+sin2ϕ​cos2θ​sin2ψ​
+-z=cos⁡ϕ2cos⁡θ2sin⁡ψ2−sin⁡ϕ2sin⁡θ2cos⁡ψ2
+-z=cos2ϕ​cos2θ​sin2ψ​−sin2ϕ​sin2θ​cos2ψ​
+
+Gimbal lock is a phenomenon in 3D rotation systems, specifically when using Euler angles, where a loss of one degree of freedom occurs when two axes of rotation become aligned, leading to unpredictable and undesirable rotations.
+
+In the context of rover navigation and positioning, avoiding gimbal lock is essential because the rover relies on accurate orientation adjustments to align with terrain, execute turns, and maintain stability. If gimbal lock occurs, one axis of rotation effectively disappears, making it impossible to properly adjust the rover's orientation. This can lead to incorrect navigation, failed maneuvering, or even complete loss of control over the rover’s direction.
+
 
