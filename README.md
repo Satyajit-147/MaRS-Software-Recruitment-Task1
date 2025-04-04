@@ -126,7 +126,7 @@ Concepts: 3D rotations, 3-number and 4-number systems and Gimbal Lock.
 
 # #HARD DOSE
 
-### Task1 (h_1.py)
+### Task1 (File: h_1.py)
 
 I was tasked with representing the obstacle positions in an arena. To solve this, I read the text file sample.txt and stored the data in a nested list. I used NumPy, a built-in module, to print an 11×11 arena. Then, I calculated the position of each obstacle, where N/S movement corresponds to the y-direction and E/W movement corresponds to the x-direction. I assumed that the rover starts from (0,0) in the arena for the question.
 
@@ -134,7 +134,7 @@ One issue I encountered was that the rover had to move north from its reference 
 
 Concepts: NumPy for 2D array represenetation, Nested Lists, Coordinate System and Transformations.
 
-### Task3 (h_3.pdf)
+### Task3 (File: h_3.pdf)
 
 To model the rover’s decision-making, I used a Behavior Tree (BT) with Sequence Nodes for ordered tasks and Fallback Nodes for handling multiple outcomes. The Battery Check fallback ensures the rover prioritizes returning to base if critically low on power, while still allowing power-saving measures if needed. The Navigation sequence ensures the rover moves forward and handles obstacles based on size, attempting to bypass small ones and find alternate paths for larger ones. This structured approach simplifies complex logic compared to traditional if-else conditions.
 
