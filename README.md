@@ -124,7 +124,7 @@ In the context of rover navigation and positioning, avoiding gimbal lock is esse
 Concepts: 3D rotations, 3-number and 4-number systems and Gimbal Lock.
 
 
-# #HARD DOSE
+## HARD DOSE
 
 ### Task1 (File: h_1.py)
 
